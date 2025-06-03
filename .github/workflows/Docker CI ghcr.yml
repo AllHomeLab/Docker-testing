@@ -13,5 +13,5 @@ jobs:
       - name: Build and push the image
         run: |
           docker login -u NathanWarrick -p ${{ secrets.ORG_TOKEN }} ghcr.io
-          docker build . -t ghcr.io/AllHomeLab/Docker-testing:latest
-          docker push ghcr.io/AllHomeLab/Docker-testing:latest
+          docker build . -t ghcr.io/AllHomeLab/docker-testing:latest
+          docker push ghcr.io/AllHomeLab/docker-testing:latest
