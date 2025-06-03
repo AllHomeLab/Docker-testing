@@ -10,7 +10,7 @@ WORKDIR /app
 ADD test.py .
 ADD requirements.txt .
 
-RUN python3 -m pip install --upgrade pip && \
-    pip install -r requirements.txt
+RUN python3 pip install -r requirements.txt
+
 
 CMD [ "python3", "test.py" ]
