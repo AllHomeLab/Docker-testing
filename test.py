@@ -1,0 +1,1 @@
+print("This is a test message in a docker container running Python 3.12")
