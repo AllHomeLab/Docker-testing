@@ -10,7 +10,7 @@ WORKDIR /app
 ADD test.py .
 ADD requirements.txt .
 
-RUN apt-get install python3-pip
+RUN apt-get -y install python3-pip
 RUN pip install -r requirements.txt
 
 
